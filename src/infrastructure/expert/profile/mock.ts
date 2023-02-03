@@ -5,7 +5,7 @@ import {
   UpdateResponse,
 } from "./scheme";
 import { EXPERT_PROFILE_SHOW, EXPERT_PROFILE_UPDATE } from "./requests";
-import { setupWorker, rest } from "msw";
+import { rest } from "msw";
 
 const EXPERT_PROFILE_SHOW_MOCK = (): ShowResponse => ({
   id: "1",
